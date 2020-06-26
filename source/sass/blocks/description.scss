@@ -48,4 +48,13 @@
 
 .description__link {
   color: transparentize($gray-color, 0.7);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.description__link {
+  color: transparentize($gray-color, 0.7);
 }
