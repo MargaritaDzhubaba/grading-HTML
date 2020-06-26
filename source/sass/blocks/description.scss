@@ -1,0 +1,51 @@
+.description {
+  position: relative;
+}
+
+.description::after {
+  content: "";
+
+  position: absolute;
+
+  top: 157px;
+  left: -137px;
+
+  z-index: -1;
+  width: 1444px;
+  height: 1089px;
+
+  background-image: url("../img/map-background.svg");
+  background-repeat: no-repeat;
+}
+
+.description__tabs {
+  @include reset-list;
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  width: 900px;
+  margin-bottom: 79px;
+  padding-bottom: 15px;
+
+  border-bottom: 1px solid transparentize($gray-color, 0.7);
+}
+
+.description__tab {
+  margin-right: 99px;
+
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: -0.415px;
+}
+
+.description__tab:last-child {
+  margin-right: 0;
+}
+
+.description__link {
+  color: transparentize($gray-color, 0.7);
+}

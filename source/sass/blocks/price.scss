@@ -1,0 +1,93 @@
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 138px;
+}
+
+.price__list {
+  @include reset-list;
+
+  display: flex;
+  justify-content: space-between;
+  // flex-wrap: wrap;
+
+  width: 770px;
+}
+
+.price__wrapper {
+  width: 299px;
+  margin-right: -10px;
+}
+
+.price__title {
+  position: relative;
+
+  padding-top: 20px;
+  padding-bottom: 17px;
+  margin-bottom: 30px;
+
+  letter-spacing: 0;
+}
+
+.price__title::after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 175px;
+  height: 3px;
+
+  background-color: $accent-color;
+}
+
+.price__text {
+  line-height: 27px;
+
+  margin-bottom: 61px;
+}
+
+.price__tel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 0;
+  margin-bottom: 3px;
+}
+
+.price__tel-message {
+  margin-bottom: 11px;
+  margin-right: -3px;
+
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 500;
+
+  color: $gray-dark-color;
+}
+
+.price__tel-number {
+  margin-right: 40px;
+  font-size: 20px;
+  line-height: 32px;
+
+  color: $black-color;
+}
+
+.price__tel-number:hover,
+.price__tel-number:focus {
+  color: $accent-color;
+}
+
+.price__tel-icon {
+  margin-right: 20px;
+
+  fill: $main-color;
+  stroke: $accent-color;
+}

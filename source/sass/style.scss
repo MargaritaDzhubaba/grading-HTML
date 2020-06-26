@@ -1,0 +1,24 @@
+@import "mixins.scss";
+@import "variables.scss";
+@import "fonts.scss";
+@import "basic-settings.scss";
+@import "visually-hidden.scss";
+
+// blocks
+@import "blocks/button.scss";
+@import "blocks/page-title.scss";
+@import "blocks/page-text.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/intro.scss";
+@import "blocks/catalog.scss";
+@import "blocks/places.scss";
+@import "blocks/trip.scss";
+@import "blocks/description.scss";
+@import "blocks/trip-info.scss";
+@import "blocks/rewiew.scss";
+@import "blocks/price.scss";
+@import "blocks/trip-plan.scss";
+@import "blocks/callback.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/modal.scss";

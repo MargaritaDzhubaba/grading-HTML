@@ -1,0 +1,56 @@
+.intro {
+  color: $main-color;
+
+  background-color: #5381a6;
+  background-image: url("../../img/intro-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/intro-background-2x.jpg");
+  }
+}
+
+.intro__wrapper {
+  margin: 0 auto;
+  padding-top: 186px;
+  padding-right: 80px;
+  padding-bottom: 295px;
+  padding-left: 700px;
+  width: $desktop-width;
+}
+
+.intro__title {
+  margin: 0;
+  margin-bottom: 29px;
+
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 80px;
+
+  letter-spacing: -1.10667px;
+}
+
+.intro__text {
+  margin: 0;
+  margin-bottom: 33px;
+
+  font-size: 16px;
+  line-height: 27px;
+
+  letter-spacing: -0.466667px;
+}
+
+.intro__button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 340px;
+}
+
+.intro__button-icon {
+  fill: none;
+  stroke: $main-color;
+}

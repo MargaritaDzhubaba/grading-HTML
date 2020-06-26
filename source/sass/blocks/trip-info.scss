@@ -1,0 +1,110 @@
+.trip-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  min-height: 596px;
+  padding-bottom: 40px;
+}
+
+.trip-info__wrapper {
+  width: 425px;
+
+  padding-bottom: 16px;
+}
+
+.trip-info--greece .trip-info__wrapper {
+  width: 370px;
+}
+
+.trip-info__title {
+  position: relative;
+
+  padding-bottom: 17px;
+  margin-top: 10px;
+  margin-bottom: 31px;
+}
+
+.trip-info__title::after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 175px;
+  height: 3px;
+
+  background-color: $accent-color;
+}
+
+.trip-info__text {
+  margin-bottom: 49px;
+
+  letter-spacing: -0.466667px;
+}
+
+.trip-info__button {
+  width: 250px;
+  padding: 30px 39px;
+}
+
+.trip-info__rewiew {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  justify-content: flex-end;
+  width: 704px;
+
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: auto 100%;
+}
+
+.trip-info--greece .trip-info__rewiew {
+  background-image: url(../img/background-greece.jpg);
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/background-greece-2x.jpg");
+  }
+}
+
+.trip-info--albania .trip-info__rewiew {
+  background-image: url(../../img/background-albania.jpg);
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/background-albania-2x.jpg");
+  }
+}
+
+.trip-info--macedonia .trip-info__rewiew {
+  background-image: url(../img/background-macedonia.jpg);
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/background-macedonia-2x.jpg");
+  }
+}
+
+.trip-info--montenegro .trip-info__rewiew {
+  background-image: url(../img/background-montenegro.jpg);
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/background-montenegro-2x.jpg");
+  }
+}
+
+.trip-info--croatia .trip-info__rewiew {
+  background-image: url(../img/background-croatia.jpg);
+
+  @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
+    background-image: url("../img/background-croatia-2x.jpg");
+  }
+}
+
+.trip-info--hidden {
+  display: none;
+}
+
+.trip-info--greece .trip-info__rewiew {
+  width: 700px;
+}

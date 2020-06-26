@@ -1,0 +1,68 @@
+.rewiew {
+  width: 382px;
+  min-height: 307px;
+  padding: 30px;
+  margin: 0;
+
+  background-color: $main-color;
+}
+
+.rewiew__title {
+  position: relative;
+  display: block;
+
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.691667px;
+
+  padding-bottom: 13px;
+  margin-top: -2px;
+  margin-bottom: 20px;
+
+  color: $gray-color;
+}
+
+.rewiew__title::after {
+  content: "";
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 68px;
+  height: 1px;
+
+  background-color: $accent-color;
+}
+
+.rewiew__text {
+  margin-bottom: 31px;
+
+  font-size: 14px;
+  letter-spacing: -0.408333px;
+}
+
+.rewiew__author-wrapper {
+  display: flex;
+  align-items: center;
+
+  margin-left: 1px;
+}
+
+.rewiew__avatar {
+  margin-right: 15px;
+}
+
+.rewiew__author {
+  margin-top: 6px;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  font-style: inherit;
+  letter-spacing: -1.3px;
+
+  color: $gray-color;
+}
