@@ -14,7 +14,7 @@
   width: 402px;
 
   padding: 0 20px 0 13px;
-  border-right: 1px solid #D7D9DF;
+  border-right: 1px solid $gray-light-color;
 }
 
 .page-footer__title {
@@ -78,7 +78,7 @@
   font-size: 14px;
   line-height: 17px;
 
-  fill: #D7D9DF;
+  fill: $gray-light-color;
 
   &:hover,
   &:focus {
@@ -91,7 +91,7 @@
   line-height: 32px;
 
   fill: $main-color;
-  stroke: #D7D9DF;
+  stroke: $gray-light-color;
 
   &:hover,
   &:focus {
@@ -112,7 +112,7 @@
   width: 379px;
   padding-left: 49px;
 
-  border-left: 1px solid #D7D9DF;
+  border-left: 1px solid $gray-light-color;
 }
 
 .page-footer__text {

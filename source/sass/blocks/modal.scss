@@ -10,6 +10,7 @@
   background-color: transparentize($black-color, 0.5);
   cursor: pointer;
 }
+
 .modal--show {
   display: block;
 }
@@ -43,7 +44,7 @@
 }
 
 .modal__card--show {
-    display: flex;
+  display: flex;
 }
 
 .modal__wrapper {

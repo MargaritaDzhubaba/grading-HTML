@@ -62,7 +62,9 @@
 }
 
 .trip-info--greece .trip-info__rewiew {
-  background-image: url(../img/background-greece.jpg);
+  width: 700px;
+
+  background-image: url("../img/background-greece.jpg");
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/background-greece-2x.jpg");
@@ -70,7 +72,7 @@
 }
 
 .trip-info--albania .trip-info__rewiew {
-  background-image: url(../../img/background-albania.jpg);
+  background-image: url("../img/background-albania.jpg");
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/background-albania-2x.jpg");
@@ -78,7 +80,7 @@
 }
 
 .trip-info--macedonia .trip-info__rewiew {
-  background-image: url(../img/background-macedonia.jpg);
+  background-image: url("../img/background-macedonia.jpg");
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/background-macedonia-2x.jpg");
@@ -86,7 +88,7 @@
 }
 
 .trip-info--montenegro .trip-info__rewiew {
-  background-image: url(../img/background-montenegro.jpg);
+  background-image: url("../img/background-montenegro.jpg");
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/background-montenegro-2x.jpg");
@@ -94,7 +96,7 @@
 }
 
 .trip-info--croatia .trip-info__rewiew {
-  background-image: url(../img/background-croatia.jpg);
+  background-image: url("../img/background-croatia.jpg");
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/background-croatia-2x.jpg");
@@ -103,8 +105,4 @@
 
 .trip-info--hidden {
   display: none;
-}
-
-.trip-info--greece .trip-info__rewiew {
-  width: 700px;
 }

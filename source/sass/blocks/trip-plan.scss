@@ -30,7 +30,7 @@
 
   &:hover .trip-plan__feature::after,
   &:focus .trip-plan__feature::after {
-    background: url(../img/checkmark-black.svg) no-repeat;
+    background: url("../img/checkmark-black.svg") no-repeat;
   }
 }
 
@@ -128,5 +128,5 @@
   width: 22px;
   height: 22px;
 
-  background: url(../img/checkmark-focus.svg) no-repeat;
+  background: url("../img/checkmark-focus.svg") no-repeat;
 }
